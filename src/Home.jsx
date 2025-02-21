@@ -24,7 +24,7 @@ function Home() {
     <div className="container py-5">
       {/* Hero Section */}
       <animated.div className="text-center bg-danger text-white p-5 rounded mb-5" style={fadeIn}>
-        <h1 className="display-4">Welcome to 🛒 MyShop</h1>
+        <h1 className="display-4">Welcome to 🛒 Fresh Mart</h1>
         <p className="lead">Your one-stop shop for fresh vegetables, meat, milk, and more!</p>
         <Link to="/VegItems" className="btn btn-light btn-lg mt-3">
           Shop Now
@@ -80,7 +80,7 @@ function Home() {
       <section className="bg-light p-4 rounded mb-5">
         <h2 className="text-center mb-3">About Us</h2>
         <p className="text-center">
-          At MyShop, we believe in providing fresh and quality products at your convenience. Discover our wide range
+          At Fresh Mart, we believe in providing fresh and quality products at your convenience. Discover our wide range
           of products and enjoy a seamless shopping experience.
         </p>
         <div className="text-center">
@@ -92,7 +92,7 @@ function Home() {
 
       {/* Footer */}
       <footer className="text-center">
-        <p>© 2025 MyShop. All rights reserved.</p>
+        <p>© 2025 Fresh Mart. All rights reserved.</p>
         <Link to="/ContactUs">Contact Us</Link>
       </footer>
     </div>
